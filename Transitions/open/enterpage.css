@@ -162,7 +162,7 @@ button:hover {
 .menu {
   position: absolute;
   right: 10px;
-  top: 750px;
+  top: 50px;
   width: 30px;
   height: 30px;
 }
@@ -177,4 +177,8 @@ ion-icon:hover {
   width: 35px;
   height: 35px;
   transition: 0.1s ease;
+}
+
+h1 {
+  color: aliceblue;
 }

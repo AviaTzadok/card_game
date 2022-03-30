@@ -7,7 +7,7 @@ body {
 }
 
 .grid {
-  width: 35%;
+  width: 69%;
   height: 300px;
   display: flex;
   flex-wrap: wrap;
@@ -86,7 +86,7 @@ img#b_c {
 .menu {
   position: absolute;
   right: 10px;
-  top: 550px;
+  top: 50px;
   width: 30px;
   height: 30px;
   color: rgba(255, 255, 255, 0);
