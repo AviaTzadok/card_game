@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="level_2.js"></script>
+    <link rel="stylesheet" href="level2.css">
+
+</head>
+
+<body>
+   
+
+    <div class="container">
+        <div class="data">
+            <div class="score" id="indication">Score : <span class="scoreBoard">0</span></div>
+            <div class="name" id="indication"></div>
+            <div class="time" id="indication">Time 0<span class="time"></span></div>
+        </div>
+        <div class="grid">
+            <div class="popup">
+                <a href="/פרוייקטים/card game/Transitions/open/enterpage.html"><button class="playAgain"></button></a>
+            </div>
+            </div>
+    </div>
+    <div class="audio">
+        <audio controls>
+          <source  type="audio/mpeg" id="source"></source>
+        </audio>
+    </div>
+    <div class="jsonScores">
+
+    </div>
+</div>
+
+    <div class="menu">
+        <li>
+            <a href="#"><ion-icon name="chevron-forward-outline" class="next_level"></ion-icon></a>
+        </li>
+        <li>
+            <a href="#"><ion-icon name="chevron-back-outline" class="previous_level"></ion-icon></a>
+        </li>
+        <li>
+            <a href="#"><ion-icon name="home-outline" class="home"></ion-icon></a>
+        </li>
+        <li>
+            <a href="#"><ion-icon name="play-circle-outline" class="play_again"></ion-icon></a>
+        </li>
+        <li>
+            <a href="#" ><ion-icon name="volume-high-outline" class="volume"></ion-icon></a>
+        </li>
+</div>
+    <audio src="sound/melodyloops-preview-caribbean-dance-12m0s.mp3" id="my_audio" loop="loop" autoplay="autoplay"></audio>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

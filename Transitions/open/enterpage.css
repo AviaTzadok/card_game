@@ -1,0 +1,180 @@
+* {
+}
+body {
+  background-image: url("back.jpg");
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.levels {
+  /* width: 87.3%;
+    height: 100px; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px auto;
+  margin-top: 150px;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 100px; */
+  /* justify-content: space-around; */
+  width: 300px;
+}
+
+img {
+  width: 160px;
+  height: 240px;
+  border-radius: 150px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+.nameBlank {
+  width: 259px;
+  height: 50px;
+  /* border: 1px solid #000; */
+  display: flex;
+  position: relative;
+  top: 90px;
+  left: 640px;
+  border-radius: 30px;
+}
+
+#bname {
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
+  font-family: cursive;
+  justify-content: center;
+  font-size: 22px;
+  border-top-left-radius: 100px;
+  border-end-start-radius: 100px;
+  justify-content: center;
+  height: 49px;
+  width: 130px;
+}
+
+#namecontainar {
+  color: gold;
+  background-color: rgba(245, 237, 237, 0);
+  border: 2px solid #000;
+  border-top-right-radius: 100px;
+  border-end-end-radius: 100px;
+  font-size: 16px;
+  padding-left: 23px;
+  height: 43px;
+  width: 100px;
+}
+
+.level_1 button {
+  background-image: url(/levels/level_1/capitalCities/3879071.jpg);
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 200px;
+  width: 150px;
+  border: 5px;
+}
+
+.level_2 button {
+  background-image: url(162203.jpg);
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 200px;
+  width: 150px;
+  border: none;
+}
+.level_3 button {
+  background-image: url(/levels/level_3/cars/1545743.jpg);
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 200px;
+  width: 150px;
+  border: none;
+}
+.level_4 button {
+  background-image: url(164936.jpg);
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 200px;
+  width: 150px;
+  border: none;
+}
+button span {
+  display: none;
+}
+
+#reel {
+  position: absolute;
+  right: 650px;
+  top: 200px;
+}
+
+.tiger {
+  position: absolute;
+  right: 270px;
+  top: 10px;
+}
+
+.scores {
+  height: 800px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  color: gold;
+  position: absolute;
+  right: 300px;
+  top: 175px;
+  font-size: 30px;
+}
+
+button {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: cursive;
+  color: goldenrod;
+  font-size: 28px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  height: 50px;
+  width: 330px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1)
+  );
+}
+button:hover {
+  cursor: pointer;
+  border: 3px solid gold;
+  box-sizing: border-box;
+  transition: 0.1s ease;
+}
+
+.menu {
+  position: absolute;
+  right: 10px;
+  top: 750px;
+  width: 30px;
+  height: 30px;
+}
+ion-icon {
+  color: gold;
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+}
+ion-icon:hover {
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  transition: 0.1s ease;
+}
